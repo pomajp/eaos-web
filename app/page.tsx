@@ -34,7 +34,9 @@ const EA_VALUE = [
 
 export default function Home() {
   const handleCTA = () => {
-    window.location.href = 'mailto:hello@eaos.tech?subject=EAOS Consultation Request'
+    const subject = encodeURIComponent('EAOS Consultation Request')
+    const body = encodeURIComponent('Hey, would really love to check out EAOS. A time that works for me is ')
+    window.location.href = `mailto:whitney.poma@gmail.com?subject=${subject}&body=${body}`
   }
 
   return (

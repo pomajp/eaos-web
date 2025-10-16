@@ -5,7 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/eaos-web' : '',
+  // No basePath needed if using custom domain or root of Pages
+  // basePath: process.env.NODE_ENV === 'production' ? '/eaos-web' : '',
 };
 
 export default nextConfig;
