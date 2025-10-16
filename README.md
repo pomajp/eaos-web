@@ -101,4 +101,4 @@ This dual treatment shows EAOS serves both sides of the partnership equally.
 
 ---
 
-Built with Next.js 15, TypeScript, Tailwind CSS 4.0, and Geist font.
+Built with Next.js 15, TypeScript, Tailwind CSS 4.0, and Geist font.# EAOS v0.1
